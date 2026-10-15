@@ -1,0 +1,167 @@
+/* ===================================================
+   PAW & CO — Emergency Care Styling
+   =================================================== */
+
+.emergency-hero-banner {
+  background: linear-gradient(135deg, #FFF1F1 0%, #FAF8F5 100%);
+  border: 1px solid #FCD4D4;
+  border-radius: var(--radius-lg);
+  padding: 40px;
+  margin: 36px 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.emergency-hero-banner h1 {
+  font-size: 2.5rem;
+  color: var(--urgent-red);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.emergency-hero-banner p {
+  color: var(--charcoal-body);
+  font-size: 1.1rem;
+  max-width: 750px;
+  line-height: 1.6;
+}
+
+/* Urgent Alert Box */
+.urgent-notice-box {
+  background-color: var(--urgent-red-light);
+  border-left: 5px solid var(--urgent-red);
+  border-radius: var(--radius-sm);
+  padding: 18px 24px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.urgent-notice-box .icon {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.urgent-notice-box strong {
+  display: block;
+  color: var(--urgent-red);
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.urgent-notice-box p {
+  color: #7A2121;
+  font-size: 0.95rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Section Header for Doctors & Ambulance */
+.emergency-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border-light);
+}
+
+.emergency-section-title h2 {
+  font-size: 1.8rem;
+  color: var(--charcoal-dark);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Emergency Cards Grid */
+.emergency-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.emergency-card {
+  background-color: var(--bg-cream-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all var(--transition-fast);
+}
+
+.emergency-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: #F8B4B4;
+}
+
+.emergency-card-header {
+  margin-bottom: 16px;
+}
+
+.emergency-card-title {
+  font-size: 1.25rem;
+  color: var(--charcoal-dark);
+  margin-bottom: 4px;
+}
+
+.emergency-card-doctor {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--sage-primary);
+  margin-bottom: 8px;
+}
+
+.emergency-meta-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: var(--charcoal-body);
+  margin-bottom: 20px;
+}
+
+.emergency-meta-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.emergency-meta-icon {
+  flex-shrink: 0;
+  font-size: 1rem;
+}
+
+.call-now-btn {
+  background-color: var(--urgent-red);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  transition: background-color var(--transition-fast);
+}
+
+.call-now-btn:hover {
+  background-color: #B83434;
+  color: #FFFFFF;
+}
+
+@media (max-width: 600px) {
+  .emergency-grid {
+    grid-template-columns: 1fr;
+  }
+}

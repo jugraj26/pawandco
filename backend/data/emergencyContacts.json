@@ -1,0 +1,78 @@
+{
+  "notice": "Immediate Medical Advice: If your pet exhibits severe bleeding, breathing distress, unconsciousness, or signs of poisoning, contact a qualified emergency veterinarian immediately.",
+  "veterinarians": [
+    {
+      "id": "vet-1",
+      "name": "Apollo 24/7 Pet Emergency & Trauma Care",
+      "doctor": "Dr. Rohit Sharma, BVSc & AH, MVSc (Surgery)",
+      "location": "Indiranagar, Bengaluru / Multi-city Hub",
+      "timing": "Open 24 Hours / 7 Days a Week",
+      "phone": "+91-98000-11222",
+      "specialty": "Critical Care, Emergency Surgeries, Oxygen Therapy",
+      "rating": 4.9,
+      "address": "Plot 42, 100 Feet Road, Indiranagar, Bengaluru - 560038"
+    },
+    {
+      "id": "vet-2",
+      "name": "Max Vets 24-Hour Animal Hospital",
+      "doctor": "Dr. Ananya Mukherjee, MVSc (Internal Medicine)",
+      "location": "South Extension / Greater Kailash, New Delhi",
+      "timing": "24/7 Round-the-clock Emergency",
+      "phone": "+91-98000-22333",
+      "specialty": "Trauma ICU, Diagnostics, Toxicology, Exotic Pets",
+      "rating": 4.8,
+      "address": "A-24, Ring Road, South Extension Part 1, New Delhi - 110049"
+    },
+    {
+      "id": "vet-3",
+      "name": "Crown Pet Specialty Clinic & ICU",
+      "doctor": "Dr. K. S. Venkatesh, MVSc, Ph.D.",
+      "location": "Bandra West, Mumbai",
+      "timing": "Emergency: 24/7 | OPD: 8:00 AM - 10:00 PM",
+      "phone": "+91-98000-33444",
+      "specialty": "Canine, Feline & Small Mammal Urgent Care",
+      "rating": 4.8,
+      "address": "Shop 3, Hill Road, Near Mehboob Studio, Bandra West, Mumbai - 400050"
+    },
+    {
+      "id": "vet-4",
+      "name": "Blue Cross Animal Hospital Emergency Wing",
+      "doctor": "Dr. Meera Iyer, BVSc",
+      "location": "Guindy, Chennai",
+      "timing": "24 Hours Emergency Response",
+      "phone": "+91-98000-44555",
+      "specialty": "Trauma Support, Snakebite Antivenom, Blood Transfusions",
+      "rating": 4.7,
+      "address": "No. 72, Velachery Main Road, Guindy, Chennai - 600032"
+    }
+  ],
+  "ambulances": [
+    {
+      "id": "amb-1",
+      "name": "PawCare Rapid Response Pet Ambulance",
+      "coverage": "Bengaluru Urban & Suburban (25 km radius)",
+      "availability": "24/7 On-call Dispatch",
+      "phone": "+91-98000-55666",
+      "features": "Equipped with Oxygen concentrator, Stretcher, First Aid & Paramedic on board",
+      "avgResponseTime": "20 - 35 mins"
+    },
+    {
+      "id": "amb-2",
+      "name": "LifeLine Animal Emergency Mobile ICU",
+      "coverage": "Delhi NCR (Delhi, Noida, Gurugram)",
+      "availability": "24/7 365 Days",
+      "phone": "+91-98000-66777",
+      "features": "Hydraulic lift, emergency stabilizer kit, temperature-controlled cabin",
+      "avgResponseTime": "15 - 30 mins"
+    },
+    {
+      "id": "amb-3",
+      "name": "Mumbai Paws Rescue & Critical Transit",
+      "coverage": "Mumbai, Thane & Navi Mumbai",
+      "availability": "24 Hours Rapid Service",
+      "phone": "+91-98000-77888",
+      "features": "Veterinary assistant on board, GPS tracking, sterile mobile stretcher",
+      "avgResponseTime": "25 - 40 mins"
+    }
+  ]
+}

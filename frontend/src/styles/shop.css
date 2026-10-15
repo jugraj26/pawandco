@@ -1,0 +1,148 @@
+/* ===================================================
+   PAW & CO — Shop Page Styling
+   =================================================== */
+
+.shop-page-header {
+  text-align: center;
+  padding: 40px 0 20px;
+}
+
+.shop-page-header h1 {
+  font-size: 2.6rem;
+  color: var(--charcoal-dark);
+  margin-bottom: 12px;
+}
+
+.shop-page-header p {
+  color: var(--charcoal-muted);
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Filter & Search Bar */
+.shop-controls {
+  background-color: var(--bg-cream-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  padding: 20px;
+  margin-bottom: 36px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.controls-row-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Search Box */
+.search-box-wrapper {
+  position: relative;
+  flex: 1;
+  min-width: 260px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px 12px 42px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--border-light);
+  font-size: 0.95rem;
+  background-color: #FAF8F5;
+  color: var(--charcoal-dark);
+  outline: none;
+  transition: all var(--transition-fast);
+}
+
+.search-input:focus {
+  border-color: var(--sage-primary);
+  background-color: #FFFFFF;
+  box-shadow: 0 0 0 3px rgba(74, 122, 87, 0.15);
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--charcoal-subtle);
+  pointer-events: none;
+}
+
+/* Sort Select */
+.sort-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sort-select {
+  padding: 10px 16px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid var(--border-light);
+  background-color: #FAF8F5;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--charcoal-dark);
+  cursor: pointer;
+  outline: none;
+}
+
+.sort-select:focus {
+  border-color: var(--sage-primary);
+}
+
+/* Category Filter Tabs */
+.category-filter-tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border-light);
+  padding-top: 16px;
+}
+
+.category-tab-btn {
+  border: none;
+  background-color: var(--bg-cream-subtle);
+  color: var(--charcoal-body);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.category-tab-btn:hover {
+  background-color: var(--bg-cream-accent);
+}
+
+.category-tab-btn.active {
+  background-color: var(--sage-primary);
+  color: #FFFFFF;
+}
+
+.category-tab-count {
+  font-size: 0.78rem;
+  opacity: 0.85;
+}
+
+/* Results Count Bar */
+.results-summary-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  font-size: 0.95rem;
+  color: var(--charcoal-muted);
+}

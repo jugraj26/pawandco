@@ -1,0 +1,344 @@
+[
+  {
+    "id": "dog-1",
+    "name": "Royal Canin Maxi Adult Dog Food (3kg)",
+    "category": "dogs",
+    "subCategory": "food",
+    "price": 2450,
+    "rating": 4.8,
+    "reviewsCount": 142,
+    "isFeatured": true,
+    "description": "Tailored nutrition for large breed adult dogs (26-44 kg). Supports optimal digestive health, bone and joint integrity, and radiant coat health.",
+    "features": [
+      "High digestibility with premium poultry protein",
+      "Enriched with EPA-DHA for healthy joint support",
+      "Omega-3 fatty acids for shiny skin and coat"
+    ],
+    "image": "/images/products/dog-food.jpg",
+    "inStock": true,
+    "stockCount": 25
+  },
+  {
+    "id": "dog-2",
+    "name": "Organic Aloe & Oatmeal Soothing Dog Shampoo (500ml)",
+    "category": "dogs",
+    "subCategory": "grooming",
+    "price": 549,
+    "rating": 4.7,
+    "reviewsCount": 98,
+    "isFeatured": false,
+    "description": "Gentle, soap-free formula packed with natural colloidal oatmeal and soothing aloe vera. Relieves itchy, sensitive dry skin while keeping the coat soft and fragrant.",
+    "features": [
+      "100% paraben-free and pH balanced for dog skin",
+      "Gentle hypoallergenic fresh scent",
+      "Nourishing Vitamin E to prevent dryness"
+    ],
+    "image": "/images/products/dog-shampoo.jpg",
+    "inStock": true,
+    "stockCount": 40
+  },
+  {
+    "id": "dog-3",
+    "name": "KONG Extreme Durable Rubber Chew Toy",
+    "category": "dogs",
+    "subCategory": "toys",
+    "price": 899,
+    "rating": 4.9,
+    "reviewsCount": 210,
+    "isFeatured": true,
+    "description": "The gold standard of dog toys. Made with ultra-durable natural black rubber designed specifically for tough chewers. Can be stuffed with treats or peanut butter.",
+    "features": [
+      "Ultra-durable, puncture-resistant rubber formula",
+      "Erratic bounce for games of fetch",
+      "Helps satisfy instinctual chewing needs"
+    ],
+    "image": "/images/products/dog-toy.jpg",
+    "inStock": true,
+    "stockCount": 35
+  },
+  {
+    "id": "dog-4",
+    "name": "Padded Reflective Nylon Dog Collar (Adjustable)",
+    "category": "dogs",
+    "subCategory": "accessories",
+    "price": 499,
+    "rating": 4.6,
+    "reviewsCount": 85,
+    "isFeatured": false,
+    "description": "Weather-resistant nylon webbing lined with soft neoprene padding for maximum neck comfort. Includes high-visibility 3M reflective stitching for safe nighttime strolls.",
+    "features": [
+      "Soft breathable neoprene inner lining",
+      "Heavy-duty zinc alloy D-ring for leash attachment",
+      "Sturdy quick-release safety buckle"
+    ],
+    "image": "/images/products/dog-collar.jpg",
+    "inStock": true,
+    "stockCount": 50
+  },
+  {
+    "id": "dog-5",
+    "name": "Orthopedic Memory Foam Pet Bed (Large)",
+    "category": "dogs",
+    "subCategory": "beds",
+    "price": 3299,
+    "rating": 4.9,
+    "reviewsCount": 115,
+    "isFeatured": true,
+    "description": "Premium therapeutic memory foam relieves pressure on aching joints and hips. Features plush supportive bolsters and a machine-washable waterproof cover.",
+    "features": [
+      "High-density orthopedic memory foam base",
+      "Removable zipper cover with anti-slip bottom",
+      "Cushioned wrap-around bolster pillows"
+    ],
+    "image": "/images/products/dog-bed.jpg",
+    "inStock": true,
+    "stockCount": 18
+  },
+  {
+    "id": "dog-6",
+    "name": "Dental Chews & Fresh Breath Treats (Pack of 30)",
+    "category": "dogs",
+    "subCategory": "treats",
+    "price": 699,
+    "rating": 4.8,
+    "reviewsCount": 73,
+    "isFeatured": false,
+    "description": "Veterinarian-recommended dental chews designed to clean down to the gumline, fight tartar buildup, and freshen bad dog breath with natural parsley and mint.",
+    "features": [
+      "Unique chewy texture cleans teeth while chewing",
+      "Easy to digest with added vitamins and minerals",
+      "Low calorie treat suitable for daily oral care"
+    ],
+    "image": "/images/products/dog-treats.jpg",
+    "inStock": true,
+    "stockCount": 60
+  },
+  {
+    "id": "cat-1",
+    "name": "Whiskas Ocean Fish Dry Cat Food (3kg)",
+    "category": "cats",
+    "subCategory": "food",
+    "price": 1050,
+    "rating": 4.7,
+    "reviewsCount": 164,
+    "isFeatured": true,
+    "description": "Complete and balanced nutrition filled with delicious ocean fish crunchies. Rich in Taurine and Vitamin A for healthy eyesight and cardiovascular vitality.",
+    "features": [
+      "Crunchy exterior with a delicious soft center pocket",
+      "Essential Taurine for healthy feline vision & heart",
+      "Balanced mineral levels to support urinary tract health"
+    ],
+    "image": "/images/products/cat-food.jpg",
+    "inStock": true,
+    "stockCount": 30
+  },
+  {
+    "id": "cat-2",
+    "name": "Natural Clumping Bentonite Cat Litter (10kg)",
+    "category": "cats",
+    "subCategory": "litter",
+    "price": 799,
+    "rating": 4.8,
+    "reviewsCount": 130,
+    "isFeatured": false,
+    "description": "100% natural sodium bentonite clay that forms instant, rock-hard clumps for easy scooping. Infused with activated carbon for 99.9% dust-free 14-day odor protection.",
+    "features": [
+      "Instant tight clumping saves litter usage",
+      "99% dust-free protects sensitive respiratory systems",
+      "Natural activated charcoal controls tough odors"
+    ],
+    "image": "/images/products/cat-litter.jpg",
+    "inStock": true,
+    "stockCount": 45
+  },
+  {
+    "id": "cat-3",
+    "name": "Multi-Level Sisal Scratching Post & Tree",
+    "category": "cats",
+    "subCategory": "furniture",
+    "price": 2799,
+    "rating": 4.9,
+    "reviewsCount": 88,
+    "isFeatured": true,
+    "description": "Multi-tiered play tower equipped with natural sisal scratching pillars, a cozy plush hideout cave, and a bouncy hanging pom-pom toy to keep indoor cats active.",
+    "features": [
+      "Durable natural sisal rope protects home furniture",
+      "Sturdy heavy-duty base prevents tipping",
+      "Soft velvet hammock and penthouse perch"
+    ],
+    "image": "/images/products/cat-tree.jpg",
+    "inStock": true,
+    "stockCount": 15
+  },
+  {
+    "id": "cat-4",
+    "name": "Self-Cleaning Slicker Deshedding Brush",
+    "category": "cats",
+    "subCategory": "grooming",
+    "price": 429,
+    "rating": 4.6,
+    "reviewsCount": 112,
+    "isFeatured": false,
+    "description": "Gently removes loose undercoat hair, tangles, and dander without scratching feline skin. One-click button retracts bristles for effortless hair removal.",
+    "features": [
+      "Coated wire bristles ensure safe, gentle grooming",
+      "One-button quick release cleans brush in 1 second",
+      "Ergonomic non-slip rubber grip handle"
+    ],
+    "image": "/images/products/cat-brush.jpg",
+    "inStock": true,
+    "stockCount": 55
+  },
+  {
+    "id": "cat-5",
+    "name": "Ultra-Soft Plush Donut Calming Cat Bed",
+    "category": "cats",
+    "subCategory": "beds",
+    "price": 1199,
+    "rating": 4.8,
+    "reviewsCount": 94,
+    "isFeatured": true,
+    "description": "Fluffy shag fur donut bed with raised round rim creates a sense of security and promotes deep, restorative sleep. Perfect for cats who love curling up into a ball.",
+    "features": [
+      "Luxurious faux fur mimics mother's warm coat",
+      "Deep crevices allow pets to burrow and cuddle",
+      "Waterproof and non-skid dirt-resistant bottom"
+    ],
+    "image": "/images/products/cat-bed.jpg",
+    "inStock": true,
+    "stockCount": 22
+  },
+  {
+    "id": "cat-6",
+    "name": "Catnip Interactive Feather Wand & Ball Set",
+    "category": "cats",
+    "subCategory": "toys",
+    "price": 349,
+    "rating": 4.7,
+    "reviewsCount": 150,
+    "isFeatured": false,
+    "description": "A 5-piece play bundle featuring a flexible telescopic feather teaser wand, organic catnip mice, and bell rattle balls for endless chasing entertainment.",
+    "features": [
+      "High-grade flexible carbon fiber wand with safe latch",
+      "Natural plumage feathers with ringing chime bells",
+      "Infused with 100% natural organic Canadian catnip"
+    ],
+    "image": "/images/products/cat-toys.jpg",
+    "inStock": true,
+    "stockCount": 70
+  },
+  {
+    "id": "hamster-1",
+    "name": "Little Friends Gourmet Hamster Muesli Food (1kg)",
+    "category": "hamsters",
+    "subCategory": "food",
+    "price": 399,
+    "rating": 4.8,
+    "reviewsCount": 78,
+    "isFeatured": true,
+    "description": "A wholesome, nutrient-dense seed, nut, and grain blend packed with dried fruits, mealworms, and vitamins tailored specifically for Syrian and dwarf hamsters.",
+    "features": [
+      "Balanced blend of pumpkin seeds, oat flakes, and dried apples",
+      "Naturally fortified with Vitamin C and Zinc",
+      "Zero artificial sugar coatings or chemical dyes"
+    ],
+    "image": "/images/products/hamster-food.jpg",
+    "inStock": true,
+    "stockCount": 40
+  },
+  {
+    "id": "hamster-2",
+    "name": "Spacious 2-Tier Villa Hamster Habitat Cage",
+    "category": "hamsters",
+    "subCategory": "cages",
+    "price": 2899,
+    "rating": 4.9,
+    "reviewsCount": 62,
+    "isFeatured": true,
+    "description": "Deluxe two-story habitat featuring a clear deep base for burrowing, chew-proof wire ventilation top, integrated ladder tunnels, and secure easy-access doors.",
+    "features": [
+      "Deep plastic base holds ample bedding without mess",
+      "Safe narrow wire spacing prevents escapes",
+      "Includes second-floor penthouse platform and ramps"
+    ],
+    "image": "/images/products/hamster-cage.jpg",
+    "inStock": true,
+    "stockCount": 12
+  },
+  {
+    "id": "hamster-3",
+    "name": "Silent Spinner Dual Ball-Bearing Exercise Wheel (8.5 inch)",
+    "category": "hamsters",
+    "subCategory": "toys",
+    "price": 649,
+    "rating": 4.9,
+    "reviewsCount": 120,
+    "isFeatured": true,
+    "description": "Whisper-quiet running wheel fitted with dual stainless steel ball bearings. Solid running track protects delicate paws and prevents spine curving.",
+    "features": [
+      "Completely silent operation for nighttime running",
+      "Gentle smooth track without pinch points",
+      "Can stand freely or clamp directly onto wire cages"
+    ],
+    "image": "/images/products/hamster-wheel.jpg",
+    "inStock": true,
+    "stockCount": 35
+  },
+  {
+    "id": "hamster-4",
+    "name": "Ultra-Absorbent Dust-Free Paper Pet Bedding (30L)",
+    "category": "hamsters",
+    "subCategory": "bedding",
+    "price": 549,
+    "rating": 4.7,
+    "reviewsCount": 89,
+    "isFeatured": false,
+    "description": "Super soft virgin paper bedding that expands up to 3x its size. 99.9% dust-free and absorbs moisture up to 6x its weight, keeping small animal cages dry and fresh.",
+    "features": [
+      "Unbleached chemical-free natural paper fiber",
+      "14-day moisture locking odor absorption",
+      "Superior nesting warmth for cozy small pet burrows"
+    ],
+    "image": "/images/products/hamster-bedding.jpg",
+    "inStock": true,
+    "stockCount": 50
+  },
+  {
+    "id": "hamster-5",
+    "name": "No-Drip Glass Water Bottle with Stainless Steel Spout (125ml)",
+    "category": "hamsters",
+    "subCategory": "accessories",
+    "price": 299,
+    "rating": 4.6,
+    "reviewsCount": 95,
+    "isFeatured": false,
+    "description": "Chew-proof thick glass water bottle equipped with a twin-ball leakproof stainless steel sipper tube and spring clip for steady cage mounting.",
+    "features": [
+      "High durability chew-proof annealed glass",
+      "Double ball-bearing seal prevents cage flooding",
+      "Transparent gauge for easy monitoring of water level"
+    ],
+    "image": "/images/products/hamster-water-bottle.jpg",
+    "inStock": true,
+    "stockCount": 65
+  },
+  {
+    "id": "hamster-6",
+    "name": "Natural Apple Wood Chew Sticks & Tunnel Toy",
+    "category": "hamsters",
+    "subCategory": "toys",
+    "price": 279,
+    "rating": 4.8,
+    "reviewsCount": 71,
+    "isFeatured": false,
+    "description": "100% natural sun-dried organic apple orchard branches and woven grass hideout. Encourages natural gnawing instincts and safely trims constantly growing rodent teeth.",
+    "features": [
+      "Pure organic fruit wood without pesticides or glues",
+      "Crucial for healthy dental grinding and jaw exercise",
+      "Safe and non-toxic for all small rodents"
+    ],
+    "image": "/images/products/hamster-chew.jpg",
+    "inStock": true,
+    "stockCount": 80
+  }
+]

@@ -1,0 +1,314 @@
+/* ===================================================
+   PAW & CO — Global Design System & Variables
+   Theme: Soft Cream Background & Sage Green Primary
+   =================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-cream: #FAF8F5;
+  --bg-cream-surface: #FFFFFF;
+  --bg-cream-subtle: #F4EFEA;
+  --bg-cream-accent: #EBE5DC;
+
+  --sage-primary: #4A7A57;
+  --sage-dark: #375E42;
+  --sage-light: #EBF3ED;
+  --sage-tint: #D6E6DB;
+
+  --charcoal-dark: #222629;
+  --charcoal-body: #3B4045;
+  --charcoal-muted: #6C757D;
+  --charcoal-subtle: #9CA3AF;
+
+  --warm-gold: #E5A83B;
+  --urgent-red: #D94848;
+  --urgent-red-light: #FDE8E8;
+  --success-green: #2E8540;
+  --success-light: #E6F4EA;
+
+  /* Border & Shadows */
+  --border-light: #E8E2D9;
+  --border-focus: #4A7A57;
+  --shadow-sm: 0 2px 8px rgba(34, 38, 41, 0.04);
+  --shadow-md: 0 6px 18px rgba(34, 38, 41, 0.08);
+  --shadow-lg: 0 14px 30px rgba(34, 38, 41, 0.12);
+  --shadow-hover: 0 12px 24px rgba(74, 122, 87, 0.16);
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 0.18s ease;
+  --transition-normal: 0.28s ease;
+}
+
+/* Base Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-cream);
+  color: var(--charcoal-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--charcoal-dark);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+}
+
+/* App Container */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* Common Layout Containers */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-narrow {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Common Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 12px 24px;
+  border-radius: var(--radius-full);
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--sage-primary);
+  color: #FFFFFF;
+}
+
+.btn-primary:hover {
+  background-color: var(--sage-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.btn-secondary {
+  background-color: var(--bg-cream-subtle);
+  color: var(--charcoal-dark);
+  border: 1px solid var(--border-light);
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-cream-accent);
+  color: var(--charcoal-dark);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--sage-primary);
+  border: 2px solid var(--sage-primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--sage-light);
+}
+
+.btn-danger {
+  background-color: var(--urgent-red);
+  color: #FFFFFF;
+}
+
+.btn-danger:hover {
+  background-color: #B83434;
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 0.85rem;
+}
+
+.btn-lg {
+  padding: 14px 32px;
+  font-size: 1.05rem;
+}
+
+.btn-full {
+  width: 100%;
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* Badge styles */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.badge-sage {
+  background-color: var(--sage-light);
+  color: var(--sage-primary);
+}
+
+.badge-gold {
+  background-color: #FEF3D6;
+  color: #B57512;
+}
+
+.badge-urgent {
+  background-color: var(--urgent-red-light);
+  color: var(--urgent-red);
+}
+
+/* Rating Stars */
+.rating-stars {
+  color: var(--warm-gold);
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.rating-count {
+  font-size: 0.8rem;
+  color: var(--charcoal-muted);
+  margin-left: 4px;
+}
+
+/* Section Header Styles */
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-header .sub-badge {
+  color: var(--sage-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.section-header h2 {
+  font-size: 2.2rem;
+  color: var(--charcoal-dark);
+  margin-bottom: 12px;
+}
+
+.section-header p {
+  color: var(--charcoal-muted);
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+/* Loading & Empty States */
+.state-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--bg-cream-surface);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  margin: 30px 0;
+}
+
+.spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid var(--sage-light);
+  border-top-color: var(--sage-primary);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 16px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Toast/Alert notification */
+.toast-msg {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: var(--charcoal-dark);
+  color: #FFFFFF;
+  padding: 14px 22px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  animation: slideUp 0.3s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
